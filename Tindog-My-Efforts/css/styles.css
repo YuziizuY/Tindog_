@@ -1,0 +1,200 @@
+body {
+  font-family: "montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+    color: black;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+#press {
+    background-color: #ef8172;
+}
+/* navigation bar */
+
+.navbar {
+  font-size: 1.5rem;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* dwnld btns-----top  */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* dwnld button bot-cta */
+
+.cta-btn {
+    font-weight: 500;
+    margin: 5% 3% 5% 0;
+  }
+  
+  .cta-icon {
+    margin-right: 5px;
+  }
+  
+  .cta-fab {
+    margin: 1rem;
+  }
+  
+
+/* iphone-img */
+
+.iphone {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+
+@media (max-width: 1293px) {
+    #title {
+      text-align: center;
+    }
+  
+    .iphone {
+      position: static;
+      transform: rotate(0);
+      width: 80%;
+    }
+  }
+
+/* Features */
+
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.ft-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.ft-icons:hover {
+  color: #ff4c68;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+/* testimonials */
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.p-price {
+  line-height: 2.25;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.p-features {
+  font-weight: 500;
+}
+
+/* footer */
+
+.copyright {
+  font-weight: 600;
+}
